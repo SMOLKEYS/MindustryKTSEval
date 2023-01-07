@@ -1,7 +1,7 @@
 {
-  "name": "ExamplePlugin",
-  "author": "Anuke",
-  "main": "example.ExamplePlugin",
-  "description": "A plugin to demonstrate some basic features.",
-  "version": 1.0
+  "name": "MindustryKTSEval",
+  "author": "SMOLKEYS",
+  "main": "kval.KtsEvalPlugin",
+  "description": "Allows evaluation of KotlinScript in the chatbox.",
+  "version": 0.1
 }
