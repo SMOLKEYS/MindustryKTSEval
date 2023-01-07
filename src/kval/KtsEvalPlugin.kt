@@ -12,8 +12,7 @@ import mindustry.world.blocks.storage.*
 
 import kval.core.*
 
-open class KtsEvalPlugin : Plugin{
-    
+open class KtsEvalPlugin() : Plugin(){
     
     override fun registerClientCommands(handler: CommandHandler){
         handler.<Player>register("kts", "<code...>", "Execute KotlinScript code."){ args, player ->
