@@ -1,15 +1,14 @@
-### Setup
+# MindustryKTSEval
 
-Clone this repository first.
-To edit the plugin display name and other data, take a look at `plugin.json`.
-Edit the name of the project itself by going into `settings.gradle`.
+Allows admins to evaluate KotlinScript in the chatbox.
 
-### Basic Usage
 
-See `src/example/ExamplePlugin.java` for some basic commands and event handlers.  
-Every main plugin class must extend `Plugin`. Make sure that `plugin.json` points to the correct main plugin class.
+# NOTE
 
-Please note that the plugin system is in beta, and as such is subject to changes.
+This plugin is VERY large! (60+ MB)
+
+This is due to the dependencies used to make it work.
+
 
 ### Building a Jar
 
