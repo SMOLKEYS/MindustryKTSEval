@@ -23,10 +23,10 @@ dependencies {
     
     
     implementation("org.jetbrains.kotlin:kotlin-script-runtime:1.7.21")
-    implementation("org.jetbrains.kotlin:kotlin-script-util:1.7.21")
+    //implementation("org.jetbrains.kotlin:kotlin-script-util:1.7.21")
     implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.7.21")
     implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.7.21")
-    implementation("org.jetbrains.kotlin:kotlin-scripting-jsr223:1.7.21")
+    //implementation("org.jetbrains.kotlin:kotlin-scripting-jsr223:1.7.21")
 }
 
 tasks.withType<KotlinCompile> {
