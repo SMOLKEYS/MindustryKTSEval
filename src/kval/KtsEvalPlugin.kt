@@ -14,7 +14,7 @@ import kval.core.*
 
 open class KtsEvalPlugin() : Plugin(){
     
-    override fun registerClientCommands(handler: CommandHandler){
+    override fun registerServerCommands(handler: CommandHandler){
         handler.<Player>register("kts", "<code...>", "Execute KotlinScript code."){ args, player ->
             if(player.admin){
                 val result = try{
